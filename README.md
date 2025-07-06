@@ -5,12 +5,15 @@
 - Kontrollerade och testkörde så att allt fungerade i webbläsaren efter installation och uppstart. 
 - Skapade ett nytt publikt repo på Github för detta projekt med samma namn. 
 - Ordnade därefter upp i filerna, tog bort demo-kod, skapade komponenter för webbplatsens innehållande undersidor: start, convert och about.  
-- Lade till ytterligare komponenten för notfound, utformade innehåll i html och css både i de seprata komponentfilerna men också globalt för de som ska gälla på alla sidor.
+- Lade till ytterligare komponenten för notfound, utformade innehåll i html och css både i de separata komponentfilerna men också globalt för de som ska gälla på alla sidor.
 - Ordnade en navigeringsmeny, där länkar går att nå till respektive sida. 
+- Gjorde en favicon i bildbehandlingsprogrammet Adobe Photoshop som jag konverterade till ett ico-format och bytte ut den från demo-faviconen. 
+- Tog även en egentagen bild och redigerade den i Adobe Photoshop och la in den i html-dokumentet för startsidan. Stylade om den och la till effekter i css. 
 
 
 
-
+## Källor:
+- https://www.youtube.com/watch?v=UGwtjzW5Ujo 
 
 
 ### Skriven av: thne1900, VT 2025. 
