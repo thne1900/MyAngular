@@ -5,6 +5,8 @@ Body {
     font-size: 1.1em;
     max-width: 1512px;
     height:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav {margin-top: 2%;
@@ -38,3 +40,9 @@ border: 4px black solid;
 border-radius: 15px;}
 
 a {text-decoration: none;color:black;}
+.logo {width:10%; 
+    height:auto;
+    border-radius: 50%; 
+    border: 4px black solid; 
+    margin-bottom: -9%;
+margin-left: -2.5%;}
