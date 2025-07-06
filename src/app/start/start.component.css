@@ -1,3 +1,4 @@
+/*start.component.css*/
 h1 {
     color: white;
     text-align: center;
@@ -13,7 +14,8 @@ p{
     margin-left: 25%;
     margin-right: 25%;
     text-align: center;
-    line-height: 1.5;}
+    line-height: 1.5;
+}
 
 #img-flowers {
     display: flex; 
@@ -22,13 +24,27 @@ p{
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
 #flowers{
     max-width:100%; 
     height:auto; 
     box-shadow: 8px 8px 12px rgba(0,0,0,0.5); 
     border:4px black solid;
 }
+
 #flowers:hover{
     border-radius: 50%;
     border: 8px black solid;
+}
+
+/*Media queries on smaller screens*/
+@media (max-width:1024px) {
+    p {font-size: 1.1em;}
+}
+
+@media (max-width:600px) {
+    h1{font-size: 1.8em;}
+    h2 {font-size: 1.4em;}
+    p {margin-left:10%; margin-right: 10%;}
+    #flowers {max-width:50%;}
 }
