@@ -1,6 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
-Body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* styles.css (global) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     background-color: rgb(83, 152, 242);
     font-size: 1.1em;
     max-width: 1512px;
@@ -9,20 +9,33 @@ Body {
     margin-right: auto;
 }
 
-nav {margin-top: 2%;
+.logo {
+    width:10%; 
+    height:auto;
+    border-radius: 50%; 
+    border: 4px black solid; 
+    margin-bottom: -10.5%;
+    margin-left: 5%;
+}
+
+nav {
+    margin-top: 2%;
     background-color: blueviolet;
     border:4px black solid;
     box-shadow: 8px 8px 10px rgba(0,0,0,0.7);
     border-radius: 15px;
-    padding:2%;
+    padding:3%;
     display: flex;
-    justify-content: center;}
+    justify-content: center;
+    margin:2%;
+}
 
 ul {
     list-style: none;
     display:flex;
     padding:0;
-    margin:0;}
+    margin:0;
+}
 
 li {
     display: inline; 
@@ -30,19 +43,47 @@ li {
     font-size: 1.4em; 
     font-weight: bold; 
     text-shadow: 6px 6px 8px rgb(255, 253, 253);
-    text-align: center;}
-
-    footer {background-color: blueviolet;
     text-align: center;
-font-size: 1.1em;
-padding:2%;
-border: 4px black solid;
-border-radius: 15px;}
+}
 
-a {text-decoration: none;color:black;}
-.logo {width:10%; 
-    height:auto;
-    border-radius: 50%; 
-    border: 4px black solid; 
-    margin-bottom: -9%;
-margin-left: -2.5%;}
+a {
+    text-decoration: none;
+    color:black; 
+    cursor: pointer;
+}
+nav a:hover {
+    color: blue; 
+} 
+
+nav a.active {
+    color: blue; 
+    text-decoration: underline; 
+}
+
+footer {
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 1.1em;
+    padding:2%;
+    border: 4px black solid;
+    border-radius: 15px;
+    margin:2%;
+    box-shadow: 8px 8px 10px rgba(0,0,0,0.7);
+    text-shadow: 4px 4px 8px rgba(249, 248, 248, 0.7);
+}
+
+@media (max-width:1024px){
+    .logo {width:12%; margin-bottom: -12%;}
+    ul {flex-direction: column; width: 100%; height: auto;}
+    nav {background-color:rgb(83, 152, 242);margin-left: 20%; margin-right: 20%; 
+    padding-top:1%; padding-bottom: 1%;}
+    li {font-size: 1.2em; padding:15px; margin:30px; }
+    a {background-color: blueviolet; padding:6%;border-radius: 50%; border: 4px black solid;
+    box-shadow: 8px 8px 12px rgba(0,0,0,0.7);}
+}
+
+@media (max-width:600px) {
+    .logo {margin-bottom: -13%;}
+    li {font-size: 0.8em; padding:10px; margin:15px;}
+    footer {font-size: 0.8em;}
+}
