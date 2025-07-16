@@ -11,7 +11,8 @@
 - Tog även en egentagen bild och redigerade den i Adobe Photoshop och la in den i html-dokumentet för startsidan med property binding. Stylade om den och la till effekter i css. 
 - Utformade start- och aboutsidan med innehåll och responsiv design.
 - Ordnade den globala designen och gjorde den responsiv. La till databinding, interpolation i footern.
-- På den andra undersidan "konvertera mått" skapades element (html) och kod (ts) för att kunna konvertera olika värden (meter, fot, celsius och fahrenheit), med databindning. Lade också till en bild för syns skull. 
+- På den andra undersidan "konvertera mått" skapades element (html) och kod (ts) för att kunna konvertera olika värden (meter, fot, celsius och fahrenheit), med databindning. Lade också till en bild för syns skull.
+- Utformade den tredje undersidan "about" med textinnehåll och gjorde design på textelementen.  
 
 
 
