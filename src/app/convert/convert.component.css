@@ -1,0 +1,70 @@
+h1 {color: white;
+    text-align: center;
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+    margin-bottom: 4%;
+}
+
+h2 {text-shadow: 4px 4px 8px rgb(249, 247, 247);} 
+
+#me-fe {box-shadow: 6px 6px 10px rgba(0,0,0,0.5);
+    border:4px black solid;
+display: flex; justify-content: center; align-items: center;
+margin-left: 15%;
+margin-right: 15%;
+}
+
+#meterInput {padding:1%; border: 2px pink solid;}
+
+#fe-me {box-shadow: 6px 6px 10px rgba(0,0,0,0.5);
+    border:4px black solid;
+display: flex; justify-content: center; align-items: center;
+margin-left: 15%;
+margin-right: 15%;
+margin-top: 2%;
+}
+
+#feetInput {padding:1%; border: 2px pink solid;}
+
+#ce-fa {box-shadow: 6px 6px 10px rgba(0,0,0,0.5);
+    border:4px black solid;
+display: flex; justify-content: center; align-items: center;
+margin-left: 15%;
+margin-right: 15%;
+margin-top: 8%;}
+
+#celsiusInput {padding:1%; border: 2px pink solid;}
+
+#fa-ce {box-shadow: 6px 6px 10px rgba(0,0,0,0.5);
+    border:4px black solid;
+display: flex; justify-content: center; align-items: center;
+margin-left: 15%;
+margin-right: 15%;
+margin-top: 2%;
+margin-bottom: 4%;
+}
+
+#fahrenheitInput {padding:1%; border: 2px pink solid;}
+
+button {border-radius: 15px; 
+    margin:2%; 
+    padding:1%; 
+    background-color: lightgreen; 
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#img-calculator {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#calculator{
+    max-width:100%; 
+    height:auto; 
+    box-shadow: 8px 8px 12px rgba(0,0,0,0.5); 
+    border-radius: 30%;
+    border: 4px black solid;
+}
