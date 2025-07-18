@@ -1,24 +1,25 @@
-<h1>Konvertera mått!</h1>
+<h1>Konvertera mått</h1>
 
+<h2>Meter och Fot:</h2>
 <div id="me-fe">
-<h2><i class="fa-solid fa-ruler"></i> Meter -> <i class="fa-solid fa-shoe-prints"></i> Fot</h2>
+<h3><i class="fa-solid fa-ruler"></i> Meter -> <i class="fa-solid fa-shoe-prints"></i> Fot</h3>
     <label for ="meterInput"><strong> &nbsp;&nbsp; Meter:</strong></label>
     <input type="number" id="meterInput" [(ngModel)]="meters"> 
     <button (click)="metersToFeet()">KONVERTERA</button>
     <p><strong>=</strong><u> {{ convert1 }} <strong>Fot</strong></u></p>
-
 </div>
+
 <div id="fe-me">
-<h2><i class="fa-solid fa-shoe-prints"></i> Fot -> <i class="fa-solid fa-ruler"></i> Meter</h2>
+<h3><i class="fa-solid fa-shoe-prints"></i> Fot -> <i class="fa-solid fa-ruler"></i> Meter</h3>
     <label for ="feetInput"><strong>&nbsp;&nbsp; Fot:</strong></label>
     <input type="number" id="feetInput" [(ngModel)]="feet"> 
     <button (click)="feetToMeters()">KONVERTERA</button>
     <p><strong>=</strong><u> {{ convert2 }} <strong>Meter</strong></u></p>
 </div>
 
-
+<h2>Celsius och Fahrenheit:</h2>
 <div id="ce-fa">
-    <h2><i class="fa-solid fa-c"></i> Celsius -> <i class="fa-solid fa-f"></i> Fahrenheit</h2>
+    <h3><i class="fa-solid fa-c"></i> Celsius -> <i class="fa-solid fa-f"></i> Fahrenheit</h3>
     <label for="celsiusInput"><strong>&nbsp;&nbsp; Celsius:</strong></label>
     <input type="number" id="celsiusInput" [(ngModel)]="celsius">
     <button (click)="celsiusToFahrenheit()">KONVERTERA</button>
@@ -26,11 +27,11 @@
 </div>
 
 <div id="fa-ce">
-    <h2><i class="fa-solid fa-f"></i> Fahrenheit -> <i class="fa-solid fa-c"></i> Celsius</h2>
+    <h3><i class="fa-solid fa-f"></i> Fahrenheit -> <i class="fa-solid fa-c"></i> Celsius</h3>
     <label for="fahrenheitInput"><strong>&nbsp;&nbsp; Fahrenheit:</strong></label>
     <input type="number" id="fahrenheitInput" [(ngModel)]="fahrenheit">
     <button (click)="fahrenheitToCelsius()">KONVERTERA</button>
-    <p><strong>=</strong> {{ convert4 }} <strong>Celsius</strong></p>
+    <p><strong>=</strong><u> {{ convert4 }} <strong>Celsius</strong></u></p>
 </div>
 
 <div id="img-calculator">

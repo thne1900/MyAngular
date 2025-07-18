@@ -1,51 +1,81 @@
-h1 {color: white;
+h1 {
+    color: white;
     text-align: center;
     text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
     margin-bottom: 4%;
 }
 
-h2 {text-shadow: 4px 4px 8px rgb(249, 247, 247);} 
+h2 {text-align: center; margin-top: 8%;}
 
-#me-fe {box-shadow: 6px 6px 10px rgba(0,0,0,0.5);
+h3 {
+    text-shadow: 4px 4px 8px rgb(249, 247, 247);
+} 
+
+#me-fe {
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.5);
     border:4px black solid;
-display: flex; justify-content: center; align-items: center;
-margin-left: 15%;
-margin-right: 15%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
-#meterInput {padding:1%; border: 2px pink solid;}
-
-#fe-me {box-shadow: 6px 6px 10px rgba(0,0,0,0.5);
-    border:4px black solid;
-display: flex; justify-content: center; align-items: center;
-margin-left: 15%;
-margin-right: 15%;
-margin-top: 2%;
+#meterInput {
+    padding:1%; 
+    border: 2px pink solid;
 }
 
-#feetInput {padding:1%; border: 2px pink solid;}
-
-#ce-fa {box-shadow: 6px 6px 10px rgba(0,0,0,0.5);
+#fe-me {
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.5);
     border:4px black solid;
-display: flex; justify-content: center; align-items: center;
-margin-left: 15%;
-margin-right: 15%;
-margin-top: 8%;}
-
-#celsiusInput {padding:1%; border: 2px pink solid;}
-
-#fa-ce {box-shadow: 6px 6px 10px rgba(0,0,0,0.5);
-    border:4px black solid;
-display: flex; justify-content: center; align-items: center;
-margin-left: 15%;
-margin-right: 15%;
-margin-top: 2%;
-margin-bottom: 4%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
 }
 
-#fahrenheitInput {padding:1%; border: 2px pink solid;}
+#feetInput {
+    padding:1%; 
+    border: 2px pink solid;
+}
 
-button {border-radius: 15px; 
+#ce-fa {
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.5);
+    border:4px black solid;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#celsiusInput {
+    padding:1%; 
+    border: 2px pink solid;
+}
+
+#fa-ce {
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.5);
+    border:4px black solid;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+#fahrenheitInput {
+    padding:1%; 
+    border: 2px pink solid;
+}
+
+button {
+    border-radius: 15px; 
     margin:2%; 
     padding:1%; 
     background-color: lightgreen; 
@@ -67,4 +97,26 @@ button {border-radius: 15px;
     box-shadow: 8px 8px 12px rgba(0,0,0,0.5); 
     border-radius: 30%;
     border: 4px black solid;
+}
+
+@media (max-width:1024px){
+   #me-fe {margin-left: 6%; margin-right:6%;} 
+   #meterInput {width:10%;}
+   #fe-me {margin-left: 6%; margin-right:6%;} 
+   #feetInput {width:10%;}
+   #ce-fa {margin-left: 6%; margin-right:6%;}
+   #celsiusInput {width:10%;}
+   #fa-ce  {margin-left: 6%; margin-right:6%;}
+   #fahrenheitInput {width:10%;}
+}
+@media (max-width:600px){
+    h1 {font-size: 1.8em;}
+    h2 {font-size: 1.5em;}
+    h3 {font-size: 1.4em;}
+    #me-fe {margin-left: 2%; margin-right:2%; font-size: 0.7em; padding:4%;}
+    #fe-me {margin-left: 2%; margin-right:2%;font-size: 0.7em; padding:4%;} 
+    #ce-fa {margin-left: 2%; margin-right:2%;font-size: 0.6em;padding:4%;}
+    #fa-ce  {margin-left: 2%; margin-right:2%;font-size: 0.6em;padding:4%;}
+    button {font-size: 0.8em;} 
+    #calculator {width:35%;}  
 }
