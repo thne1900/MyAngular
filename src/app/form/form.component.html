@@ -1,0 +1,17 @@
+<h2>Lämna gärna dina synpunkter:</h2>
+<form>
+    <label for="name">Namn:</label>
+    <input type="text" placeholder="För-och efternamn">
+    <br>
+    <br>
+    <label for="email">Epost:</label>
+    <input type="email" placeholder="namn@domän.se">
+    <br>
+    <br>
+    <br>
+    <label for="message">Meddelande:</label>
+    <br>
+    <textarea id="message" rows="8" cols="40">Skriv dina synpunkter här...</textarea>
+    <br>
+    <button (click)="sendMessage()" type="submit">Skicka synpunkt</button>
+</form>
