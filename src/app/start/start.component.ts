@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './start.component.css'
 })
 export class StartComponent {
+
+  //Picture of flowers.
   imgPath:string="images/flowers.jpg";
 }

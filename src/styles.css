@@ -18,6 +18,7 @@ body {
     margin-left: 5%;
 }
 
+/*Nav.menu*/
 nav {
     margin-top: 2%;
     background-color: blueviolet;
@@ -60,6 +61,7 @@ nav a.active {
     text-decoration: underline; 
 }
 
+/*The footer*/
 footer {
     background-color: blueviolet;
     text-align: center;
@@ -72,6 +74,7 @@ footer {
     text-shadow: 4px 4px 8px rgba(249, 248, 248, 0.7);
 }
 
+/*Media queries for smaller screen sizes.*/
 @media (max-width:1024px){
     .logo {width:12%; margin-bottom: -12%;}
     ul {flex-direction: column; width: 100%; height: auto;}

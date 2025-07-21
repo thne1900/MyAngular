@@ -1,3 +1,4 @@
+/*Styles för convert.component.*/
 h1 {
     color: white;
     text-align: center;
@@ -5,7 +6,9 @@ h1 {
     margin-bottom: 4%;
 }
 
-h2 {text-align: center; margin-top: 8%;}
+h2 {
+    text-align: center; margin-top: 8%;
+}
 
 h3 {
     text-shadow: 4px 4px 8px rgb(249, 247, 247);
@@ -82,7 +85,7 @@ button {
     font-weight: bold;
     cursor: pointer;
 }
-
+/*Picture*/
 #img-calculator {
     display: flex; 
     justify-content: center; 
@@ -90,7 +93,6 @@ button {
     margin-top: 5%;
     margin-bottom: 5%;
 }
-
 #calculator{
     max-width:100%; 
     height:auto; 
@@ -99,6 +101,7 @@ button {
     border: 4px black solid;
 }
 
+/*Media queries for smaller screen sizes.*/
 @media (max-width:1024px){
    #me-fe {margin-left: 6%; margin-right:6%;} 
    #meterInput {width:10%;}

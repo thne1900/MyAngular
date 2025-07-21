@@ -9,6 +9,8 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'MyAngular';
+
+  //Variables in the footer.
   course:string= "Programmering i TypeScript"
   schoolProgram: string="Webbutvecklingsprogrammet";
   schoolName: string | number= "thne1900";

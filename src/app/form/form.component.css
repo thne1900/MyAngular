@@ -1,7 +1,7 @@
+/*Styles for form.component.*/
 h2 {
     text-align: center;
 }
-
 
 form {
     width:100%;
@@ -26,4 +26,18 @@ button {
     background-color: lightgreen; 
     margin-left: 6%; 
     cursor: pointer;
+}
+
+/*Media queries for smaller screen sizes.*/
+@media (max-width:1024px){
+    form {margin-left: 30%;}
+    button {margin-left: 10%;}
+}
+
+@media (max-width:600px){
+    h2{font-size: 1.2em; margin-top: 8%;}
+    form {margin-left: 12%; width:75%; text-align: center;}
+    input {width:50%;}
+    label {font-size: 0.9em;}
+    button {margin-left: 2%; font-size: 0.9em; padding:1.5%;}
 }

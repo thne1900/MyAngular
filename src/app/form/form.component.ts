@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './form.component.css'
 })
 export class FormComponent {
+
+  //Method for displaying alert box.
   sendMessage(){
     alert ("Tack! Dina synpunkter har skickats")
   }

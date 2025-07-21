@@ -1,5 +1,10 @@
+<!--HTML doc for app.component.-->
+
+
+<!--The logotype-->
 <img src="loggo.png" class="logo" alt="Webbplatsens logotyp">
 
+<!--The nav.menu (router)-->
 <nav> 
     <ul>
         <li><a routerLink="/start" routerLinkActive="active"><i class="fa-solid fa-house"></i> STARTSIDA</a></li>
@@ -9,6 +14,8 @@
 </nav>
 
 <router-outlet />
+
+<!--The footer (data binding)-->
 <footer>
    <p><strong>KURS:</strong> {{ course }} - Moment 3</p>
    <p><i>{{ schoolProgram }}, VT  {{ year }}</i></p>

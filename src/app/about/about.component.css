@@ -1,34 +1,40 @@
+/*Styles for about.component*/
 h1{
     color: white;
     text-align: center;
     text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
 }
 
-h2 {text-align: center;
-color:white;
-margin-right:20%;
-margin-left: 20%;
-margin-bottom: 5%;}
-
-h3 {font-size: 1.5em;
+h2 {
   text-align: center;
-  text-decoration: underline;
-    font-weight: bold;
-    color:black;
-    text-shadow: 4px 4px 8px rgba(250, 248, 248, 0.5);
+  color:white;
+  margin-right:20%;
+  margin-left: 20%;
+  margin-bottom: 5%;
 }
 
-.textObject {font-size: 1.3em;
-line-height: 1.4;
-text-align: center;
-margin-right: 20%;
-margin-left: 20%;
-margin-bottom: 5%;
-text-align: center;
-border: 2px white solid;
-padding:2%;
-box-shadow: 8px 8px 10px rgba(0,0,0,0.5);}
+h3 {
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  color:black;
+  text-shadow: 4px 4px 8px rgba(250, 248, 248, 0.5);
+}
 
+.textObject {
+  font-size: 1.3em;
+  line-height: 1.4;
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+  text-align: center;
+  border: 2px white solid;
+  padding:2%;
+  box-shadow: 8px 8px 10px rgba(0,0,0,0.5);}
+
+/*Media queries for smaller screen sizes.*/  
 @media (max-width:1024px) {
 h2 {font-size: 1.3em;}
 h3 {font-size: 1.2em;}
