@@ -1,0 +1,37 @@
+/*Styles for notfound.component.*/
+
+h1 {
+    margin-top: 8%;
+    font-size: 1.5em; 
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+h2 {
+    font-size: 1.4em; 
+    text-align: center; 
+    text-shadow: 4px 4px 8px rgb(251, 249, 249);
+    margin-bottom: 12%;
+}
+
+.notFound {
+    background-color: blueviolet;
+    margin-left:20%; 
+    margin-right:20%;
+    padding:1%;
+    border: 4px black solid;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@media (max-width:1024px) {
+    h1 {font-size: 1.4em;}
+    h2{font-size: 1.3em;}
+    .notFound{margin-top: 5%; margin-bottom: 5%;}
+}
+
+@media (max-width:600px){
+    .notFound{margin-left: 5%; margin-right: 5%; margin-top: 8%; margin-bottom: 25%;}
+    h1{font-size: 1.1em;}
+    h2 {font-size: 1em;}
+}
