@@ -15,7 +15,8 @@
 - Utformade den tredje undersidan "about" med textinnehåll och gjorde design på textelementen. 
 - Lade till en ny komponent "form", för att i den skapa ett formulär för att ge besökare möjlighet att lämna synpunkter. Detta formuläret placerades in på undersidan "about". Formuläret gjordes statiskt för en visuell känsla och har ingen underliggande funktion. Vid klick på "skicka"-knappen kommer en textruta upp. Utformade formuläret även med responsiv design. 
 - Stylade komponenten "notfound" och gjorde sidan responsiv. 
-- Körde "build"-kommandot för att publicering till Netlify och styrde om så att alla anrop ska gå till index.html-filen.  
+- Körde "build"-kommandot för att publicering till Netlify och styrde om så att alla anrop ska gå till index.html-filen med en _redirects-fil. 
+- Kontrollerade så allting fungerade som önskat vid publicering.  
 
 
 ## Källor:
@@ -23,6 +24,7 @@
 - (Video) Angular-Skapa webbplats, Mattias Dahlgren, 2024-02-28.
 - (Video) Angular Templats & Databinding, Mattias Dahlgren, 2025-02-11.
 - (Video) Angular-Skapa en kalkylator med Forms och data-bindning, Mattias Dahlgren, 2024-02-29.
+- (Internet) https://docs.netlify.com/build/frameworks/framework-setup-guides/angular/ (2025-08-03)
 
 - (Bild) Pixabay. Kalkylator. haiyen22051994. 2023-10-09. https://pixabay.com/sv/gifs/kalkylator-anteckningar-ber%C3%A4kna-tal-8495/.
 
