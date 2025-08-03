@@ -24,6 +24,7 @@ h2 {
     margin-bottom: 2%;
 }
 
+/*Media queries for smaller screen sizes.*/
 @media (max-width:1024px) {
     h1 {font-size: 1.4em;}
     h2{font-size: 1.3em;}
