@@ -14,7 +14,8 @@
 - På den andra undersidan "konvertera mått" skapades element (html) och kod (ts) för att kunna konvertera olika värden (meter, fot, celsius och fahrenheit), med databindning. Lade också till en bild för syns skull.
 - Utformade den tredje undersidan "about" med textinnehåll och gjorde design på textelementen. 
 - Lade till en ny komponent "form", för att i den skapa ett formulär för att ge besökare möjlighet att lämna synpunkter. Detta formuläret placerades in på undersidan "about". Formuläret gjordes statiskt för en visuell känsla och har ingen underliggande funktion. Vid klick på "skicka"-knappen kommer en textruta upp. Utformade formuläret även med responsiv design. 
-- Stylade komponenten "notfound" och gjorde sidan responsiv.  
+- Stylade komponenten "notfound" och gjorde sidan responsiv. 
+- Körde "build"-kommandot för att publicering till Netlify och styrde om så att alla anrop ska gå till index.html-filen.  
 
 
 ## Källor:
