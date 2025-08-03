@@ -13,7 +13,8 @@
 - Ordnade den globala designen och gjorde den responsiv. La till databinding, interpolation i footern.
 - På den andra undersidan "konvertera mått" skapades element (html) och kod (ts) för att kunna konvertera olika värden (meter, fot, celsius och fahrenheit), med databindning. Lade också till en bild för syns skull.
 - Utformade den tredje undersidan "about" med textinnehåll och gjorde design på textelementen. 
-- Lade till en ny komponent "form", för att i den skapa ett formulär för att ge besökare möjlighet att lämna synpunkter. Detta formuläret placerades in på undersidan "about". Formuläret gjordes statiskt för en visuell känsla och har ingen underliggande funktion. Vid klick på "skicka"-knappen kommer en textruta upp. Utformade formuläret även med responsiv design.   
+- Lade till en ny komponent "form", för att i den skapa ett formulär för att ge besökare möjlighet att lämna synpunkter. Detta formuläret placerades in på undersidan "about". Formuläret gjordes statiskt för en visuell känsla och har ingen underliggande funktion. Vid klick på "skicka"-knappen kommer en textruta upp. Utformade formuläret även med responsiv design. 
+- Stylade komponenten "notfound" och gjorde sidan responsiv.  
 
 
 ## Källor:
