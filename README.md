@@ -6,7 +6,7 @@
 - Skapade ett nytt publikt repo på Github för detta projekt med samma namn. 
 - Ordnade därefter upp i filerna, tog bort demo-kod, skapade komponenter för webbplatsens innehållande undersidor: start, convert och about.  
 - Lade till ytterligare komponenten för notfound, utformade innehåll i html och css både i de separata komponentfilerna men också globalt för de som ska gälla på alla sidor.
-- Ordnade en navigeringsmeny, där länkar går att nå till respektive sida via app.routes.ts. 
+- Ordnade en navigeringsmeny, där länkar går att nå till respektive sida via app.routes.ts. Lade också till symboler för stylingens skull.  
 - Gjorde en favicon i bildbehandlingsprogrammet Adobe Photoshop som jag konverterade till ett ico-format och bytte ut den från demo-faviconen. 
 - Tog även en egentagen bild och redigerade den i Adobe Photoshop och la in den i html-dokumentet för startsidan med property binding. Stylade om den och la till effekter i css. 
 - Utformade start- och aboutsidan med innehåll och responsiv design.
@@ -20,11 +20,13 @@
 
 
 ## Källor:
+- (Föreläsning) JacaScript - Ramverk & Angular, Mattias Dahlgren, 2025-04-16.
 - (Video) Angular-Skapa projekt, Mattias Dahlgren, 2025-03-21.
 - (Video) Angular-Skapa webbplats, Mattias Dahlgren, 2024-02-28.
 - (Video) Angular Templats & Databinding, Mattias Dahlgren, 2025-02-11.
 - (Video) Angular-Skapa en kalkylator med Forms och data-bindning, Mattias Dahlgren, 2024-02-29.
 - (Internet) https://docs.netlify.com/build/frameworks/framework-setup-guides/angular/ (2025-08-03)
+- (Internet) https://fontawesome.com/ (2025-07-06).
 
 - (Bild) Pixabay. Kalkylator. haiyen22051994. 2023-10-09. https://pixabay.com/sv/gifs/kalkylator-anteckningar-ber%C3%A4kna-tal-8495/.
 

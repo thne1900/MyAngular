@@ -12,8 +12,8 @@ export class AppComponent {
 
   //Variables in the footer.
   course:string= "Programmering i TypeScript"
-  schoolProgram: string="Webbutvecklingsprogrammet";
-  schoolName: string | number= "thne1900";
-  year: number= 2025;
+  schoolProgram:string="Webbutvecklingsprogrammet";
+  schoolName:string= "thne1900";
+  year:number= 2025;
   
 }
