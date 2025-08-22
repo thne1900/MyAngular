@@ -86,7 +86,7 @@ footer {
 }
 
 @media (max-width:600px) {
-    nav {padding-bottom: 2%;}
+    nav {padding-bottom: 2%; margin-left:18%; margin-right:18%;}
     .logo {margin-bottom: -13%;}
     li {font-size: 0.8em; padding:8px; margin:10px;}
     a {font-size: 0.8em;}
