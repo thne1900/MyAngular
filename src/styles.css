@@ -88,6 +88,7 @@ footer {
 @media (max-width:600px) {
     nav {padding-bottom: 2%; margin-left:18%; margin-right:18%;}
     .logo {margin-bottom: -13%;}
-    li {font-size: 0.8em; padding:10px; margin:10px;}
+    li {font-size:0.8em; padding:10px; margin:10px;}
+    nav a {font-size: 0.8em;}
     footer {font-size: 0.8em;}
 }
