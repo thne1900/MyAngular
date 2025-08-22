@@ -10,6 +10,9 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'MyAngular';
 
+  //Logotype
+  loggoPath:string="images/loggo.png";
+
   //Variables in the footer.
   course:string= "Programmering i TypeScript"
   schoolProgram:string="Webbutvecklingsprogrammet";

@@ -27,6 +27,7 @@
 - (Video) Angular-Skapa en kalkylator med Forms och data-bindning, Mattias Dahlgren, 2024-02-29.
 - (Internet) https://docs.netlify.com/build/frameworks/framework-setup-guides/angular/ (2025-08-03)
 - (Internet) https://fontawesome.com/ (2025-07-06).
+- https://angular.dev/tutorials/first-app/11-details-page (2025-08-22)
 
 - (Bild) Pixabay. Kalkylator. haiyen22051994. 2023-10-09. https://pixabay.com/sv/gifs/kalkylator-anteckningar-ber%C3%A4kna-tal-8495/.
 

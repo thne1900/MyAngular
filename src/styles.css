@@ -47,7 +47,7 @@ li {
     text-align: center;
 }
 
-a {
+nav a {
     text-decoration: none;
     color:black; 
     cursor: pointer;
@@ -81,14 +81,13 @@ footer {
     nav {background-color:rgb(83, 152, 242);margin-left: 20%; margin-right: 20%; 
     padding-top:1%; padding-bottom: 1%;}
     li {font-size:1em; padding:15px; margin:25px; }
-    a {background-color: blueviolet; padding:6%;border-radius: 50%; border: 4px black solid;
-    box-shadow: 8px 8px 12px rgba(0,0,0,0.7); font-size: 1em;}
+    nav a {background-color: blueviolet; padding:6%;border-radius: 50%; border: 4px black solid;
+    box-shadow: 8px 8px 12px rgba(0,0,0,0.7);}
 }
 
 @media (max-width:600px) {
     nav {padding-bottom: 2%; margin-left:18%; margin-right:18%;}
     .logo {margin-bottom: -13%;}
-    li {font-size: 0.8em; padding:8px; margin:10px;}
-    a {font-size: 0.8em;}
+    li {font-size: 0.8em; padding:10px; margin:10px;}
     footer {font-size: 0.8em;}
 }
