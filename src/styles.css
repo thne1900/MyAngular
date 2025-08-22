@@ -80,13 +80,15 @@ footer {
     ul {flex-direction: column; width: 100%; height: auto;}
     nav {background-color:rgb(83, 152, 242);margin-left: 20%; margin-right: 20%; 
     padding-top:1%; padding-bottom: 1%;}
-    li {font-size: 1.2em; padding:15px; margin:30px; }
+    li {font-size:1em; padding:15px; margin:25px; }
     a {background-color: blueviolet; padding:6%;border-radius: 50%; border: 4px black solid;
-    box-shadow: 8px 8px 12px rgba(0,0,0,0.7);}
+    box-shadow: 8px 8px 12px rgba(0,0,0,0.7); font-size: 1em;}
 }
 
 @media (max-width:600px) {
+    nav {padding-bottom: 2%;}
     .logo {margin-bottom: -13%;}
-    li {font-size: 0.8em; padding:10px; margin:15px;}
+    li {font-size: 0.9em; padding:8px; margin:10px;}
+    a {font-size: 0.9em;}
     footer {font-size: 0.8em;}
 }
